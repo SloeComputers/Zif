@@ -14,7 +14,7 @@
 
 #define  PROGRAM         "ZDmp"
 #define  DESCRIPTION     "Dump Z story contents"
-#define  LINK            "https://github.com/AnotherJohnH/Zif"
+#define  LINK            "https://github.com/SloeComputers/Zif"
 #define  AUTHOR          "John D. Haughton"
 #define  VERSION         PROJ_VERSION
 #define  COPYRIGHT_YEAR  "2018-2019"

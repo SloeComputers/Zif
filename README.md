@@ -14,7 +14,7 @@ Excellent Z-code engines already exist and some have already been ported to the 
 
 ## Status
 
-[![Build Status](https://github.com/AnotherJohnH/Zif/actions/workflows/build_on_push.yml/badge.svg)](https://github.com/AnotherJohnH/Zif/actions/workflows/build_on_push.yml)
+[![Build Status](https://github.com/SloeComputers/Zif/actions/workflows/build_on_push.yml/badge.svg)](https://github.com/SloeComputers/Zif/actions/workflows/build_on_push.yml)
 
 The application is currently beta quality. It has been built and seen to run on various platforms.
 Almost all Z-code files, .z# and .zblorb, downloaded from the interactive fiction archive, start
@@ -56,13 +56,13 @@ This repo uses git sub-modules, so checkout using --recurse to clone all the
 dependent source...
 
 ```
-git clone --recurse https://github.com/AnotherJohnH/Zif.git
+git clone --recurse https://github.com/SloeComputers/Zif.git
 ```
 
 or
 
 ```
-git clone --recurse ssh://git@github.com/AnotherJohnH/Zif.git
+git clone --recurse ssh://git@github.com/SloeComputers/Zif.git
 ```
 
 ## How to build
@@ -214,7 +214,7 @@ an Android build of SDL2 has not been achieved yet.
 
 ## Testing
 
-Regression testing is mostly achieved via the [ZifTest](https://github.com/AnotherJohnH/ZifTest/)
+Regression testing is mostly achieved via the [ZifTest](https://github.com/SloeComputers/ZifTest/)
 project.
 
 ## Coding style
