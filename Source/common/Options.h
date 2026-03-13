@@ -18,8 +18,7 @@ struct Options
    STB::Option<bool>        print{   'p', "print",    "Print output to \"print.log\""};
    STB::Option<bool>        key{     'k', "key",      "Log key presses to \"key.log\""};
    STB::Option<const char*> input{   'i', "input",    "Read keyboard input from a file"};
-   STB::Option<unsigned>    seed{    'S', "seed",     "Initial random number seed", 0};
+   STB::Option<unsigned>    seed{    'r', "seed",     "Initial random number seed", 0};
    STB::Option<unsigned>    undo{    'u', "undo",     "Number of undo buffers", 4};
    STB::Option<const char*> save_dir{'s', "save-dir", "Directory for save files", "Saves"};
 };
-

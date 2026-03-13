@@ -12,14 +12,14 @@ launcher is not necessary.
 
 Several excellent Z-code engines already exist, and some have already been ported to the Kindle.
 
+![Screenshot](docs/Screenshot.png)
+
 ## Status
 
 **Zif** is playable and has been built and verified to run on various platforms. Almost all Z-code files, .z# and .zblorb, downloaded from the interactive fiction archive, start
 to run as expected. (817/819)
 
 Although further testing is required, initial results indicate that enough functionality has been implemented to play most available games.
-
-![Screenshot](docs/Screenshot.png)
 
 ### Supported Platforms
 
@@ -60,7 +60,7 @@ OPTIONS
      -p,--print               Print output to "print.log"
      -k,--key                 Log key presses to "key.log"
      -i,--input <string>      Read keyboard input from a file
-     -S,--seed <unsigned>     Initial random number seed [0]
+     -r,--seed <unsigned>     Initial random number seed [0]
      -u,--undo <unsigned>     Number of undo buffers [4]
      -s,--save-dir <string>   Directory for save files ["Saves"]
 ```

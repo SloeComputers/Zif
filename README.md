@@ -54,7 +54,7 @@ OPTIONS
      -p,--print               Print output to "print.log"
      -k,--key                 Log key presses to "key.log"
      -i,--input <string>      Read keyboard input from a file
-     -S,--seed <unsigned>     Initial random number seed [0]
+     -r,--seed <unsigned>     Initial random number seed [0]
      -u,--undo <unsigned>     Number of undo buffers [4]
      -s,--save-dir <string>   Directory for save files ["Saves"]
 ```
