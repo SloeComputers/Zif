@@ -1,13 +1,13 @@
 # Zif
 
-A Z-code engine for playing interactive fiction games.
+A Z-code engine for interactive fiction games.
 
-A particular goal of Zif is portability between different platforms and specifically
-portability to the third generation Kindle, aka Kindle Keyboard. The Kindle keyboard
+A key goal of Zif is portability across different platforms and specifically
+portability to the third-generation Kindle, aka Kindle Keyboard. The Kindle keyboard
 appears as an ideal platform for playing interactive fiction.
 
 Zif includes an optional terminal emulator and a basic curses style front-end menu to
-select story files. So when running on a Kindle, a third-party terminal emulator and
+select story files. When running on a Kindle, a third-party terminal emulator and
 launcher is not necessary.
 
 ## How to run
