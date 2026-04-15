@@ -9,7 +9,7 @@ project(Zif
         LANGUAGES CXX
         VERSION 0.6.2)
 
-add_subdirectory(Platform)
+add_subdirectory(PDK)
 
 #-------------------------------------------------------------------------------
 

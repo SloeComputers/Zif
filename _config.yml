@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 title: Zif
 description: A Sloe Computers Project
-exclude: Platform
+exclude: PDK
