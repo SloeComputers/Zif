@@ -9,19 +9,13 @@ project(Zif
         LANGUAGES CXX
         VERSION 0.6.2)
 
+if(NOT DEFINED BUILD_TESTING)
+    set(BUILD_TESTING OFF CACHE BOOL "Build unit tests")
+endif()
+include(CTest)
+
 add_subdirectory(PDK)
-
-#-------------------------------------------------------------------------------
-
-add_executable(zif
-               Source/zif.cpp
-               Source/common/ConsoleImpl.cpp)
-
-target_compile_definitions(zif PRIVATE TERMINAL_EMULATOR)
-
-target_include_directories(zif PRIVATE Source)
-
-target_link_libraries(zif PRIVATE GUI STB)
+add_subdirectory(Source)
 
 #-------------------------------------------------------------------------------
 

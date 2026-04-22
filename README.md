@@ -14,6 +14,8 @@ Several excellent Z-code engines already exist, and some have already been porte
 
 ## Status
 
+[![Build Status](https://github.com/SloeComputers/Zif/actions/workflows/build_on_push.yml/badge.svg)](https://github.com/SloeComputers/Zif/actions/workflows/build_on_push.yml)
+
 Zif is playable and has been built and verified to run on various platforms. Almost all Z-code files, .z# and .zblorb, downloaded from the interactive fiction archive, start
 to run as expected. (817/819)
 
